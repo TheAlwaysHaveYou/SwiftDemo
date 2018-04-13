@@ -14,13 +14,6 @@ class RunTimeController: UIViewController {
         super.viewDidLoad()
 
         
-        Student.propertyList()
-        
-        
+        _ = Student.propertyList()
     }
-
-    
-    
-    
-
 }
